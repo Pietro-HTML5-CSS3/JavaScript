@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro progama</title>
+    <style>
+        /*parte do Css stilo*/
+        body {
+            background-color: rgb(153, 0, 255);
+            color:white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(0, 255, 234);
+        }
+    </style>
+</head>
+<body>
+    <!--Parte do HTML-->
+    <h1>Olá, Mundo!</h1>
+    <hr>
+    <p>Já me livrei da maldição</p>
+    <script>
+        //Parte do Java//
+
+       /*var n1 = Number.parseInt(window.prompt('Digite um número: '))// String
+       var n2 = Number.parseInt(window.prompt('Digite outro número: '))// String
+
+       var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+       var n2 = Number.parseFloat(window.prompt('Digite outro número:'))*/
+
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Dite outro número: '))
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+       
+       //window.alert('A soma dos dois valores é: ' + String(s)).toString()
+
+       // (number + number) Para adição
+       // (string + string) Para concatenação
+    </script>
+</body>
+</html>
